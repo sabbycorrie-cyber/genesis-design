@@ -29,6 +29,8 @@ header {
     font-size: 18px;
     font-weight: bold;
     margin-left: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 footer {
@@ -46,12 +48,16 @@ footer {
     margin-left: 30px;
     font-size: 18px;
     font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 
 .socials {
     display: flex;
     gap: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 /* === HOME PAGE === */
@@ -218,7 +224,7 @@ footer {
 }
 
 .contact-page .contact-text {
-    padding: 40px 0;
+    flex: 1;
 }
 
 .contact-page .contact-form {
@@ -228,7 +234,7 @@ footer {
 }
 
 .contact-page .contact-form input,
-.contact-page .contact-form textarea {
+.contact-form textarea {
     width: 100%;
     border: none;
     padding: 10px 0;
@@ -247,6 +253,7 @@ footer {
     width: 100%;
     display: block;
     margin-top: 60px;
+    align-items: center;
 }
 
 /*=== PROJECT PAGE ===*/
@@ -259,6 +266,7 @@ footer {
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 .project-page p{
@@ -266,6 +274,7 @@ footer {
     line-height: 1.6;
     color: #777;
     max-width: 500px;
+    align-items: center;
 }
 
 .project-page .container {
@@ -364,7 +373,3 @@ footer {
     display: inline-block;
     min-width: 110px;
 }
-
-
-
-
